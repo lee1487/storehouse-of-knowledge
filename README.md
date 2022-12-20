@@ -24,3 +24,30 @@
 
 참조 - https://cloudlab.tistory.com/entry/MobaXterm-%ED%84%B0%EB%84%90%EB%A7%81%EC%9D%84-%ED%86%B5%ED%95%B4-OpenStack-Dashboard-%EC%A0%91%EA%B7%BC-%EB%B0%8F-%ED%99%9C%EC%9A%A9
 ```
+
+## 프로젝트 설정 vscode로 springboot running
+```
+1. 기존에 프로젝트 import후 제대로된 빌드가 되지 않아서 오류가 생겼을 때 eclipse에서 project clean후 rebuild하듯이 
+   VS Code에서는 ctrl+shift+p 후 Java Clean Java Language Server Workspace를 실행해보자.
+
+2. VS Code에서는 실행 인자 전달을 위해서는 launch.json이라는 파일에서 값을 전달할 수 있다.
+
+3. Extentions 목록 
+  - Debugger for Java
+  - Extension Pack for Java
+  - Gradle Extension Pack
+  - Gradle for Java
+  - Gradle Language Support
+  - IntelliCode
+  - IntelliCode API Usage Examples
+  - Language Support for Java(TM) by Red Hat
+  - Maven for Java
+  - Project Manager for Java
+  - Spring Boot Dashboard
+  - Spring Boot Extension Pack
+  - Spring Boot Tools
+  - Spring Initializr Java Support
+  - Test Runner for Java
+  - Vue
+  - Vue Language Features(Volar)
+```
